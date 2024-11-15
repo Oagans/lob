@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz 8 meses!</title>
+    <link rel="shortcut icon" href="./img/Dark-Red-Heart-Transparent-Background.png" type="image/x-icon" />
+
+    <!-- Chamada Google fonts! -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <!-- Chamada CSS! -->
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/coração.css">
+    <link rel="stylesheet" href="./css/presente.css">
+    <link rel="stylesheet" href="./css/responsivo.css">
+
+</head>
+<body>
+    <audio id="audio">
+        <source src="./song/A Thousand Miles.wav" type="audio/wav" />
+    </audio>
+    
+    <div class="fundo">
+        <div class="header">
+
+            <div class="botao">
+                <button id="ambientacao">Vai uma ambientação?</button>
+                <button id="parar">Dá um pause ae!</button>
+            </div>  
+
+            <h1>Isabel, mai lombi, meu morzito,  minha frozita de sakura...&#128524&#128150;&#127800</h1>
+            <h2>Ontem, quando fui estudar, e pensando em hoje, tive a ideia de tentar unir o útil ao agradável e te fazer o presentinho da vez, utilizando o que vim aprendendo na faculdade nos útimos tempos! &#128516 </h2>
+            <h2>Então segue aqui a minha lembrancinha pra você, com o cuidado, carinho e amor de sempre, pra comemorar nossos 8 meses de namoro! &#129392</h2>
+        
+            <div class="clica">
+                <p>Clica no coração!</p>
+            </div>
+
+            <div id="open-modal" class="coracao">
+                <img src="./img/Dark-Red-Heart-Transparent-Background.png" alt="imagem de coração!">
+            </div>
+        </div>
+    </div>
+
+
+    <div id="fade" class="hide"></div>
+    <div id="modal" class="hide">
+      <div class="label"></div>
+      <div class="modal-header">
+        <h1>Feliz 8 meses lombi! &#129392&#127881</h1>
+        <button id="close-modal">Fechar</button>
+      </div>
+      <div class="modal-body">
+        <div class="logos">
+            <div class="logos-slide">
+                <img src="./img/WhatsApp Image 2024-09-19 at 20.08.30 (1).jpeg" alt="logo da empresa">
+                <img src="./img/WhatsApp Image 2024-09-19 at 20.08.30 (2).jpeg" alt="logo da empresa">
+                <img src="./img/WhatsApp Image 2024-09-19 at 20.08.30.jpeg" alt="logo da empresa">
+                <img src="./img/WhatsApp Image 2024-09-19 at 20.08.31 (1).jpeg" alt="logo da empresa">
+                <img src="./img/WhatsApp Image 2024-09-19 at 20.08.31.jpeg" alt="logo da empresa">
+                <img src="./img/WhatsApp Image 2024-09-19 at 20.08.32 (1).jpeg" alt="logo da empresa">
+                <img src="./img/WhatsApp Image 2024-09-19 at 20.08.32.jpeg" alt="logo da empresa">
+                <img src="./img/WhatsApp Image 2024-09-19 at 20.08.33 (1).jpeg" alt="logo da empresa">
+                <img src="./img/WhatsApp Image 2024-09-19 at 20.08.33.jpeg" alt="logo da empresa">
+                <img src="./img/WhatsApp Image 2024-09-19 at 20.08.34 (1).jpeg" alt="logo da empresa">
+                <img src="./img/WhatsApp Image 2024-09-19 at 20.08.34.jpeg" alt="logo da empresa">
+                <img src="./img/WhatsApp Image 2024-09-19 at 20.08.35 (1).jpeg" alt="logo da empresa">
+                <img src="./img/WhatsApp Image 2024-09-19 at 20.08.35.jpeg" alt="logo da empresa">
+                <img src="./img/WhatsApp Image 2024-09-19 at 20.08.36 (1).jpeg" alt="logo da empresa">
+                <img id="open-modal2" src="./img/WhatsApp Image 2024-09-19 at 20.08.36.jpeg" alt="logo da empresa">
+            </div>       
+        </div>
+        <div class="texto">
+            <p>Eu te amo mucho minha lombuxa!</p>
+            <p>De: Matheus! &#128522</p>
+            <p>Para: Belzita my lomb!&#129505</p>
+            <p>-20/09/24-</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div id="fade2" class="hide"></div>
+    <div id="modal2" class="hide">
+    <div class="label"></div>
+    <div class="modal-header">
+        <button id="close-modal2">Fechar</button>
+    </div>
+    <video width=100% height="700vh" id="video" controls>
+        <source src="./video/Rick_Astley_Never_Gonna_Give_You_Up.mp4" type="video/mp4">
+      </video>
+    </div>
+    <!-- Fim Modal 2 -->
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

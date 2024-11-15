@@ -1,0 +1,42 @@
+/* Reset CSS! */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+  
+body {
+    font-size: 1.6rem;
+    font-family: Poppins;
+    background: linear-gradient(-45deg, #F0A8D0, #F7B5CA, #FFC6C6, #FFEBD4);
+    background-size: 400% 400%;
+    animation: gradient-bg 20s ease infinite;
+}
+
+@keyframes gradient-bg {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+  
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
